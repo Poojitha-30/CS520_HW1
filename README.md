@@ -1,54 +1,54 @@
-# 🧠 Neural Networks – Home Assignment 1
+# Neural Networks – Home Assignment 1
 
-## 📚 University of Central Missouri  
+## University of Central Missouri  
 **Department:** Computer Science & Cybersecurity  
 **Course:** CS5720 – Neural Networks and Deep Learning  
 **Term:** Summer 2025  
 
 ---
 
-## 👩‍🎓 Student Information  
+## Student Information  
 - **Name:** Sri Poojitha Dandaboina  
 - **Student ID:** 700765309  
 - **GitHub Repository:** [CS520_HW1](https://github.com/Poojitha-30/CS520_HW1)
 
 ---
 
-## 📌 Overview
+## Overview
 This assignment covers foundational concepts in deep learning using TensorFlow, including tensor manipulation, loss function analysis, and training a neural network with TensorBoard logging.
 
 ---
 
-## 🧪 Tasks Summary
+## Tasks Summary
 
-### 🔹 Task 1: Tensor Manipulations & Reshaping
+###  Task 1: Tensor Manipulations & Reshaping
 - Create a random tensor of shape (4, 6)
 - Compute its rank and shape
 - Reshape to (2, 3, 4) and transpose to (3, 2, 4)
 - Perform broadcasting with a (1, 4) tensor and add to the larger tensor
 - **Explanation included** on how broadcasting works in TensorFlow
 
-### 🔹 Task 2: Loss Functions & Hyperparameter Tuning
+###  Task 2: Loss Functions & Hyperparameter Tuning
 - Define `y_true` and `y_pred` tensors
 - Calculate **Mean Squared Error (MSE)** and **Categorical Cross-Entropy (CCE)**
 - Modify predictions slightly to analyze loss variations
 - Plot loss comparison using Matplotlib
 
-### 🔹 Task 3: Neural Network Training with TensorBoard
+###  Task 3: Neural Network Training with TensorBoard
 - Load and preprocess the **MNIST dataset**
 - Build and train a simple neural network for digit classification
 - Enable **TensorBoard logging**
 - Train the model for **5 epochs**
 - Launch TensorBoard to monitor training and validation metrics
 
-### 📘 Reflection Questions Answered:
+### Reflection Questions Answered:
 - Observations on training vs. validation accuracy
 - How TensorBoard helps detect overfitting
 - Effects of increasing the number of epochs
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - Python 3.7+
 - TensorFlow 2.x
@@ -56,12 +56,12 @@ This assignment covers foundational concepts in deep learning using TensorFlow, 
 - Matplotlib
 - Jupyter Notebook
 
-### Install dependencies:
+## Install dependencies :
 
 ```bash
 pip install tensorflow numpy matplotlib
 
- How to Run
+ **How to Run**
 Clone the repository and navigate to the directory:
 git clone https://github.com/Poojitha-30/CS520_HW1.git
 cd CS520_HW1
