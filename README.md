@@ -1,37 +1,77 @@
-**Neural networks In-Home Assignment 1**
-University of Central Missouri
-**Course: Neural Networks and Deep Learning**
-Term: SUMMER 2025 Student Name: DANDABOINA SRI POOJITHA Student ID: [700765309]
+# 🧠 Neural Networks – Home Assignment 1
 
-Overview of the Assignment
-This repository contains the solution for **Neural networks Assignment, covering fundamental deep learning concepts using TensorFlow. The assignment consists of four main tasks:
+## 📚 University of Central Missouri  
+**Department:** Computer Science & Cybersecurity  
+**Course:** CS5720 – Neural Networks and Deep Learning  
+**Term:** Summer 2025  
 
-Tensor Operations & Reshaping
-Loss Function Analysis & Hyperparameter Adjustment
-Neural Network Training with TensorBoard Logging
-Prerequisites
-Before executing the script, ensure the following are installed:
+---
 
-Python (>=3.7)
-TensorFlow (>=2.x)
-NumPy
-Matplotlib
-To install dependencies, execute:
+## 👩‍🎓 Student Information  
+- **Name:** Sri Poojitha Dandaboina  
+- **Student ID:** 700765309  
+- **GitHub Repository:** [CS520_HW1](https://github.com/Poojitha-30/CS520_HW1)
 
+---
+
+## 📌 Overview
+This assignment covers foundational concepts in deep learning using TensorFlow, including tensor manipulation, loss function analysis, and training a neural network with TensorBoard logging.
+
+---
+
+## 🧪 Tasks Summary
+
+### 🔹 Task 1: Tensor Manipulations & Reshaping
+- Create a random tensor of shape (4, 6)
+- Compute its rank and shape
+- Reshape to (2, 3, 4) and transpose to (3, 2, 4)
+- Perform broadcasting with a (1, 4) tensor and add to the larger tensor
+- **Explanation included** on how broadcasting works in TensorFlow
+
+### 🔹 Task 2: Loss Functions & Hyperparameter Tuning
+- Define `y_true` and `y_pred` tensors
+- Calculate **Mean Squared Error (MSE)** and **Categorical Cross-Entropy (CCE)**
+- Modify predictions slightly to analyze loss variations
+- Plot loss comparison using Matplotlib
+
+### 🔹 Task 3: Neural Network Training with TensorBoard
+- Load and preprocess the **MNIST dataset**
+- Build and train a simple neural network for digit classification
+- Enable **TensorBoard logging**
+- Train the model for **5 epochs**
+- Launch TensorBoard to monitor training and validation metrics
+
+### 📘 Reflection Questions Answered:
+- Observations on training vs. validation accuracy
+- How TensorBoard helps detect overfitting
+- Effects of increasing the number of epochs
+
+---
+
+## ⚙️ Requirements
+
+- Python 3.7+
+- TensorFlow 2.x
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+
+### Install dependencies:
+
+```bash
 pip install tensorflow numpy matplotlib
-Execution Instructions
+
+ How to Run
 Clone the repository and navigate to the directory:
+git clone https://github.com/Poojitha-30/CS520_HW1.git
+cd CS520_HW1
 
-git clone https://github.com/vamsidama/Neural networks.git
-cd Neural networks
-Run the script:
+Open and run the notebook:
+jupyter notebook CS520_HW1.ipynb
 
-python Neural networks Assignment.jpynb
-Launching TensorBoard
-After training, logs can be viewed using TensorBoard:
-
+To launch TensorBoard:
 tensorboard --logdir logs/fit/
-#TASK 1 Task 1: Tensor Transformations & Reshaping
+
 
 Step 1: Generate a Random Tensor The code generates a 4×6 random tensor using TensorFlow: tensor_data = tf.random.uniform((4, 6)) This creates a tensor with values between 0 and 1.
 
